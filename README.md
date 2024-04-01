@@ -37,7 +37,7 @@ math.HTML
 <head>
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-<title>Area of a Square prism</title>
+<title>Area of Rectangle</title>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <style type="text/css">
 body 
@@ -130,10 +130,12 @@ urlpatterns = [
 ```
 
 ## SERVER SIDE PROCESSING:
-![alt text](<Screenshot 2024-04-01 210243.png>)
+
+![alt text](sever.png)
+
 
 ## HOMEPAGE:
-![alt text](<Screenshot 2024-04-01 210243.png>)
+![alt text](output.png)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
