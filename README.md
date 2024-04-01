@@ -130,7 +130,7 @@ urlpatterns = [
 ```
 
 ## SERVER SIDE PROCESSING:
-![alt text](<Screenshot 2024-04-01 210243.png>)
+![sever](https://github.com/ARAVIND23005370/MathServer/assets/148514836/c1117b5d-694e-4fee-bbfd-2a4f2209af8d)
 
 ## HOMEPAGE:
 ![alt text](<Screenshot 2024-04-01 210243.png>)
