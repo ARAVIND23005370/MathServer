@@ -1,19 +1,20 @@
 from django.shortcuts import render
-def rectarea(request):
-    context={}
+def surfacearea(request):
+    context = {}
     context['area'] = "0"
-    context['l'] = "0"
-    context['b'] = "0"
+    context['r'] = "0"
+    context['h'] = "0"
     if request.method == 'POST':
         print("POST method is used")
-        l = request.POST.get('length','0')
-        b = request.POST.get('breadth','0')
-        print('request=',request)
-        print('Length=',l)
-        print('Breadth=',b)
-        area = int(l) * int(b)
+        print('request.POST:', request.POST)
+        r = request.POST.get('radius', '0') 
+        h = request.POST.get('height', '0') 
+        print('radius =', r)
+        print('height =', h)
+        area = 2 * 3.14 * int(r) * int(h) + 2*3.14*int(r)*int(r)
         context['area'] = area
-        context['l'] = l
-        context['b'] = b
-        print('Area=',area)
-    return render(request,'mathapp/math.html',context)
+        context['r'] = r
+        context['h'] = h
+        print('Area =', area)
+    
+    return render(request, 'mathapp/math.html',context)
